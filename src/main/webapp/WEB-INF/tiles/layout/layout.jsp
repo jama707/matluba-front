@@ -16,6 +16,6 @@
 <div class="page-content">
     <tiles:insertAttribute name="body"/>
 </div>
-<tiles:insertAttribute name="header"/>
+<tiles:insertAttribute name="footer"/>
 </body>
 </html>
