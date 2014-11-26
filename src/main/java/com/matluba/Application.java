@@ -16,11 +16,7 @@ import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
-/**
- * Created by Spring Source Tool Suite.
- *
- * @author Mark Meany
- */
+
 @Configuration
 @ComponentScan
 @EnableAutoConfiguration
@@ -34,7 +30,7 @@ public class Application {
     @Bean
     public TilesConfigurer tilesConfigurer() {
         final TilesConfigurer configurer = new TilesConfigurer();
-        configurer.setDefinitions("tiles.xml");
+        configurer.setDefinitions("/WEB-INF/tiles.xml");
         configurer.setCheckRefresh(true);
         return configurer;
     }
