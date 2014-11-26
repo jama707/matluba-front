@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <!-- Templates -->
+
+    <definition name="layout.basic" template="/WEB-INF/tiles/layout/layout.jsp">
+        <put-attribute name="title" value="Matluba Studio"/>
+        <put-attribute name="header" value="/WEB-INF/tiles/view/header.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/tiles/view/footer.jsp"/>
+    </definition>
+
+    <!-- Pages -->
+
+    <definition name="site.homepage" extends="layout.basic">
+        <put-attribute name="body" value="/WEB-INF/tiles/view/home/home.jsp"/>
+    </definition>
+
+    <definition name="site.packages" extends="layout.basic">
+        <put-attribute name="title" value="Packages"/>
+        <put-attribute name="body" value="/WEB-INF/tiles/view/home/packages.jsp"/>
+    </definition>
+    <definition name="site.contactus" extends="layout.basic">
+        <put-attribute name="title" value="Reach Us"/>
+        <put-attribute name="body" value="/WEB-INF/tiles/view/home/contact-us.jsp"/>
+    </definition>
+    <definition name="site.productview" extends="layout.basic">
+        <put-attribute name="title" value="Product View"/>
+        <put-attribute name="body" value="/WEB-INF/tiles/view/home/product-view.jsp"/>
+    </definition>
+    <definition name="site.products" extends="layout.basic">
+        <put-attribute name="title" value="Products"/>
+        <put-attribute name="body" value="/WEB-INF/tiles/view/home/products.jsp"/>
+    </definition>
+    <definition name="site.about" extends="layout.basic">
+        <put-attribute name="title" value="About"/>
+        <put-attribute name="body" value="/WEB-INF/tiles/view/home/about.jsp"/>
+    </definition>
+
+</tiles-definitions>
