@@ -5,10 +5,10 @@
 <head>
     <meta charset="utf-8"/>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,600' rel='stylesheet' type='text/css'>
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
-    <script src="/static/js/jquery.js" type="text/javascript"></script>
-    <script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="${pageContext.request.contextPath}/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="${pageContext.request.contextPath}/static/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+    <script src="${pageContext.request.contextPath}/static/js/jquery.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/static/js/bootstrap.min.js" type="text/javascript"></script>
     <title><tiles:getAsString name="title" /></title>
 </head>
 <body>

@@ -16,7 +16,7 @@
     <div class="thumb-grid">
         <div class="thumb">
             <div class="thumb-img">
-                <img src="/static/img/dress_1.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_1.jpg" class="img-200x300"/>
             </div>
             <div class="thumb-desc">
                 <div class="thumb-desc-title">Pamel Roland</div>
@@ -25,7 +25,7 @@
         </div>
         <div class="thumb">
             <div class="thumb-img">
-                <img src="/static/img/dress_2.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_2.jpg" class="img-200x300"/>
             </div>
             <div class="thumb-desc">
                 <div class="thumb-desc-title">Pamel Roland</div>
@@ -34,7 +34,7 @@
         </div>
         <div class="thumb">
             <div class="thumb-img">
-                <img src="/static/img/dress_3.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_3.jpg" class="img-200x300"/>
             </div>
             <div class="thumb-desc">
                 <div class="thumb-desc-title">Pamel Roland</div>
@@ -43,7 +43,7 @@
         </div>
         <div class="thumb">
             <div class="thumb-img">
-                <img src="/static/img/dress_4.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_4.jpg" class="img-200x300"/>
             </div>
             <div class="thumb-desc">
                 <div class="thumb-desc-title">Diane von Furstenberg</div>
@@ -52,7 +52,7 @@
         </div>
         <div class="thumb">
             <div class="thumb-img">
-                <img src="/static/img/dress_5.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_5.jpg" class="img-200x300"/>
             </div>
             <div class="thumb-desc">
                 <div class="thumb-desc-title">Pamel Roland</div>
@@ -61,7 +61,7 @@
         </div>
         <div class="thumb">
             <div class="thumb-img">
-                <img src="/static/img/dress_6.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_6.jpg" class="img-200x300"/>
             </div>
             <div class="thumb-desc">
                 <div class="thumb-desc-title">Pamel Roland</div>

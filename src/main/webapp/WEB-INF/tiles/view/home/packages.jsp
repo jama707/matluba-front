@@ -16,7 +16,7 @@
     <div class="package-grid">
         <div class="package">
             <div class="package-img">
-                <img src="/static/img/dress_1.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_1.jpg" class="img-200x300"/>
             </div>
             <div class="package-name">Pamel Roland</div>
             <div class="package-desc">
@@ -28,7 +28,7 @@
         </div>
         <div class="package">
             <div class="package-img">
-                <img src="/static/img/dress_2.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_2.jpg" class="img-200x300"/>
             </div>
             <div class="package-name">Pamel Roland</div>
             <div class="package-desc">
@@ -40,7 +40,7 @@
         </div>
         <div class="package">
             <div class="package-img">
-                <img src="/static/img/dress_3.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_3.jpg" class="img-200x300"/>
             </div>
             <div class="package-name">Pamel Roland</div>
             <div class="package-desc">
@@ -52,7 +52,7 @@
         </div>
         <div class="package">
             <div class="package-img">
-                <img src="/static/img/dress_4.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_4.jpg" class="img-200x300"/>
             </div>
             <div class="package-name">Diane von Furstenberg</div>
             <div class="package-desc">
@@ -64,7 +64,7 @@
         </div>
         <div class="package">
             <div class="package-img">
-                <img src="/static/img/dress_5.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_5.jpg" class="img-200x300"/>
             </div>
             <div class="package-name">Pamel Roland</div>
             <div class="package-desc">
@@ -76,7 +76,7 @@
         </div>
         <div class="package">
             <div class="package-img">
-                <img src="/static/img/dress_6.jpg" class="img-200x300"/>
+                <img src="${pageContext.request.contextPath}/static/img/dress_6.jpg" class="img-200x300"/>
             </div>
             <div class="package-name">Pamel Roland</div>
             <div class="package-desc">

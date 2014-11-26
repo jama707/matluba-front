@@ -7,7 +7,7 @@
     <div class="product-detail">
         <div class="row">
             <div class="col-sm-6 col-md-4 col-md-offset-2">
-                <img class="product-main-img" src="/static/img/dress_4.jpg"/>
+                <img class="product-main-img" src="${pageContext.request.contextPath}/static/img/dress_4.jpg"/>
             </div>
             <div class="col-sm-8 col-md-4">
                 <h4 class="product-name">Pamel Roland</h4>

@@ -1,6 +1,6 @@
 <div class="header">
     <div class="top-brand">
-        <a href="/"><img class="logo" src="/static/img/logo.jpg" height="102"/></a>
+        <a href="${pageContext.request.contextPath}/"><img class="logo" src="${pageContext.request.contextPath}/static/img/logo.jpg" height="102"/></a>
 
         <div class="contact-options text-left">
             <div class="email"><span class="contact-label">Email:</span>matluba@gmail.com</div>
@@ -27,7 +27,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women's Wear<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="/products.html">Evening Dresses</a></li>
+                            <li><a href="${pageContext.request.contextPath}/products">Evening Dresses</a></li>
                             <li><a href="#">Another action</a></li>
                             <li><a href="#">Something else here</a></li>
                             <li class="divider"></li>
@@ -49,10 +49,10 @@
                         </ul>
                     </li>
                     <li><a href="#">Accessories</a></li>
-                    <li><a href="/packages">Packages</a></li>
+                    <li><a href="${pageContext.request.contextPath}/packages">Packages</a></li>
                     <li><a href="#">Our Services</a></li>
-                    <li><a href="/contact">Reach Us</a></li>
-                    <li><a href="/about">About Us</a></li>
+                    <li><a href="${pageContext.request.contextPath}/contact">Reach Us</a></li>
+                    <li><a href="${pageContext.request.contextPath}/about">About Us</a></li>
                 </ul>
                 <ul class="nav navbar-nav pull-right social-nav">
                     <li>

@@ -10,13 +10,13 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="hero" src="/static/img/hero-9.jpg" style="height:720px">
+                <img class="hero" src="${pageContext.request.contextPath}/static/img/hero-9.jpg" style="height:720px">
             </div>
             <div class="item">
-                <img class="hero" src="/static/img/hero-6.jpg" style="height:720px">
+                <img class="hero" src="${pageContext.request.contextPath}/static/img/hero-6.jpg" style="height:720px">
             </div>
             <div class="item">
-                <img class="hero" src="/static/img/hero-7.jpg" style="height:720px">
+                <img class="hero" src="${pageContext.request.contextPath}/static/img/hero-7.jpg" style="height:720px">
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@
     <div class="featurette featurette-sided featurette-satin">
         <div class="feature-content-row">
             <div class="feature-content-left">
-                <img src="/static/img/packages.jpg" class="feature-img" width="375" height="400"/>
+                <img src="${pageContext.request.contextPath}/static/img/packages.jpg" class="feature-img" width="375" height="400"/>
             </div>
             <div class="feature-content-right">
                 <div class="feature-box">
