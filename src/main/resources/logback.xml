@@ -44,7 +44,7 @@
     </contextListener>
 
     <root level="${logback.loglevel}">
-        <appender-ref ref="ASYNC"/>
+        <appender-ref ref="CONSOLE"/>
     </root>
 
 </configuration>
