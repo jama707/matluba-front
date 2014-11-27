@@ -106,7 +106,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <packagingExcludes>WEB-INF/lib/tomcat-*.jar</packagingExcludes>
-                    <warName>front.war</warName>
+                    <warName>front</warName>
                     <outputDirectory>/usr/local/tomcat7/webapps/</outputDirectory>
                 </configuration>
             </plugin>
