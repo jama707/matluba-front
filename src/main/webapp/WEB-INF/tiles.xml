@@ -25,7 +25,7 @@
     </definition>
     <definition name="site.contactus" extends="layout.basic">
         <put-attribute name="title" value="Reach Us"/>
-        <put-attribute name="body" value="/WEB-INF/tiles/view/home/contact-us.jsp"/>
+        <put-attribute name="body" value="/WEB-INF/tiles/view/home/contact.jsp"/>
     </definition>
     <definition name="site.productview" extends="layout.basic">
         <put-attribute name="title" value="Product View"/>
